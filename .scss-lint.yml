@@ -1,0 +1,16 @@
+linters:
+  DuplicateProperty:
+    enabled: false
+
+  Indentation:
+    width: 4
+
+  MergeableSelector:
+    force_nesting: false
+
+  SelectorDepth:
+    enabled: true
+    max_depth: 2
+
+  SpaceBeforeBrace:
+    allow_single_line_padding: true
